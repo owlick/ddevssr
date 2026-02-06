@@ -1,0 +1,40 @@
+{
+  "name": "material_base",
+  "version": "1.13.0",
+  "description": "Drupal theme.",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "develop": "gulp",
+    "build-lint": "gulp build-lint",
+    "watch-lint": "gulp watch-lint",
+    "develop-lint": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.drupalcode.org/project/material_base"
+  },
+  "author": "iamdroid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://www.drupal.org/project/issues/material_base"
+  },
+  "homepage": "https://mb.4dd.pw/",
+  "devDependencies": {
+    "breakpoint-sass": "^3.0.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-eslint-new": "^1.9.1",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.74.1"
+  }
+}

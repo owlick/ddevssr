@@ -1,0 +1,47 @@
+name: Material Base
+type: theme
+description: Base theme inspirited by Material Design concept.
+core_version_requirement: ^9 || ^10 || ^11
+
+# Defines the base theme
+base theme: stable9
+
+screenshot: screenshot.svg
+
+# Defines libraries group in which we can add css/js.
+libraries:
+  - material_base/flexboxgrid
+  - material_base/color-themes
+  - material_base/theme-dark
+  - material_base/icons
+  - material_base/services-icons
+  - material_base/filetypes-icons
+  - material_base/helpers
+  - material_base/code-highlight
+  - material_base/styles
+
+# Regions
+regions:
+  page_top: 'Page top'
+  header: 'Header'
+  help: 'Help'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  sidebar_first: 'First sidebar'
+  sidebar_second: 'Second sidebar'
+  footer: 'Footer'
+  page_bottom: 'Page bottom'
+  navbar: 'Navbar'
+  drawer: 'Drawer'
+  header_bg: 'Header background'
+  actions: 'Actions'
+  before_main: 'Before main content'
+  after_main: 'After main content'
+  content_secondary: 'Content secondary'
+  footer_content: 'Footer content'
+
+# Information added by Drupal.org packaging script on 2024-04-09
+version: '8.x-1.13'
+project: 'material_base'
+datestamp: 1712690600

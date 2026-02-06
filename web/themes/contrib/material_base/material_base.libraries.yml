@@ -1,0 +1,65 @@
+flexboxgrid:
+  css:
+    layout:
+      css/flexboxgrid.css: {}
+
+color-themes:
+  css:
+    theme:
+      css/color-themes.css: {}
+
+theme-dark:
+  css:
+    theme:
+      css/theme-dark.css: {}
+
+icons:
+  css:
+    component:
+      css/icons.css: {}
+
+services-icons:
+  css:
+    component:
+      css/services-icons.css: {}
+
+filetypes-icons:
+  css:
+    component:
+      css/filetypes-icons.css: {}
+
+helpers:
+  css:
+    theme:
+      css/helpers.css: {}
+
+code-highlight:
+  css:
+    component:
+      css/code-highlight.css: {}
+  js:
+    js/prism.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+
+ripple:
+  js:
+    js/mb-ripple.js: { }
+
+slide:
+  js:
+    js/mb-slide.js: { }
+
+styles:
+  css:
+    base:
+      css/fonts.css: {}
+      css/styles.css: {}
+  js:
+    js/misc.js: {}
+  dependencies:
+    - material_base/ripple
+    - material_base/slide
+    - core/drupal
+    - core/once
