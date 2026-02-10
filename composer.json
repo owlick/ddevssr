@@ -16,7 +16,10 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/admin_toolbar": "^3.6",
         "drupal/block_class": "^3.0",
+        "drupal/bootstrap": "^5.0",
+        "drupal/bootstrap5": "^3.0",
         "drupal/bulma": "^1.0",
         "drupal/core-composer-scaffold": "^10.6",
         "drupal/core-project-message": "^10.6",
@@ -24,6 +27,7 @@
         "drupal/drupal8_zymphonies_theme": "^3.0",
         "drupal/extra_body_classes": "^3.0",
         "drupal/material_base": "^1.13",
+        "drupal/pathauto": "^1.14",
         "drupal/webform": "^6.2"
     },
     "conflict": {
